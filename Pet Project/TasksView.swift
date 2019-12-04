@@ -23,9 +23,9 @@ class FirstViewController: UIViewController {
     
     @IBOutlet weak var timerLabel: UILabel!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+        timerLabel.backgroundColor = UIColor.clear
         // Do any additional setup after loading the view.
     }
     
