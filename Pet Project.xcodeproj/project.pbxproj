@@ -14,6 +14,9 @@
 		1D6BFD6423971DA700BCC0AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D6BFD6223971DA700BCC0AF /* Main.storyboard */; };
 		1D6BFD6623971DAC00BCC0AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D6BFD6523971DAC00BCC0AF /* Assets.xcassets */; };
 		1D6BFD6923971DAC00BCC0AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D6BFD6723971DAC00BCC0AF /* LaunchScreen.storyboard */; };
+		1D6BFD7123971E9F00BCC0AF /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6BFD7023971E9F00BCC0AF /* ThirdViewController.swift */; };
+		1D6BFD7323972E7E00BCC0AF /* TabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6BFD7223972E7E00BCC0AF /* TabController.swift */; };
+		1D6BFD77239731D000BCC0AF /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6BFD76239731D000BCC0AF /* Pet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		1D6BFD6523971DAC00BCC0AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D6BFD6823971DAC00BCC0AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D6BFD6A23971DAC00BCC0AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D6BFD7023971E9F00BCC0AF /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		1D6BFD7223972E7E00BCC0AF /* TabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabController.swift; sourceTree = "<group>"; };
+		1D6BFD76239731D000BCC0AF /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +68,10 @@
 				1D6BFD5C23971DA700BCC0AF /* SceneDelegate.swift */,
 				1D6BFD5E23971DA700BCC0AF /* FirstViewController.swift */,
 				1D6BFD6023971DA700BCC0AF /* SecondViewController.swift */,
+				1D6BFD7023971E9F00BCC0AF /* ThirdViewController.swift */,
 				1D6BFD6223971DA700BCC0AF /* Main.storyboard */,
+				1D6BFD7223972E7E00BCC0AF /* TabController.swift */,
+				1D6BFD76239731D000BCC0AF /* Pet.swift */,
 				1D6BFD6523971DAC00BCC0AF /* Assets.xcassets */,
 				1D6BFD6723971DAC00BCC0AF /* LaunchScreen.storyboard */,
 				1D6BFD6A23971DAC00BCC0AF /* Info.plist */,
@@ -141,8 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D6BFD77239731D000BCC0AF /* Pet.swift in Sources */,
 				1D6BFD6123971DA700BCC0AF /* SecondViewController.swift in Sources */,
+				1D6BFD7323972E7E00BCC0AF /* TabController.swift in Sources */,
 				1D6BFD5F23971DA700BCC0AF /* FirstViewController.swift in Sources */,
+				1D6BFD7123971E9F00BCC0AF /* ThirdViewController.swift in Sources */,
 				1D6BFD5B23971DA700BCC0AF /* AppDelegate.swift in Sources */,
 				1D6BFD5D23971DA700BCC0AF /* SceneDelegate.swift in Sources */,
 			);
@@ -298,7 +310,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "xxx.Pet-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -316,7 +328,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "xxx.Pet-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
