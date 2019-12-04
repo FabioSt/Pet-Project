@@ -10,9 +10,11 @@ import Foundation
 import SpriteKit
 
 class Pet {
-    var petView = SKSpriteNode(imageNamed: "String")
+    var petView = SKSpriteNode(imageNamed: "first")
     var health = 0
     var size = sizes.s
+    var position = CGPoint(x: 0, y: 0)
+    
     enum sizes {
         case s
         case m
